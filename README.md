@@ -40,13 +40,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.glossier.com
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  De Homepagina
   <img src="images/homepagina.png" width="375px" alt="de homepagina van mijn gekozen website">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  De Detailpagina 
   <img src="images/detailpagina.png" width="375px" alt="de detailpagina waarop je de artikelen kunt bekijken">
- <img src="images/Glossierwebsite.pdf" alt="alle termen bij de bijbehorende elementen>
+ <img src="images/Glossierwebsite.pdf" width="375px" alt="alle termen bij de bijbehorende elementen">
 </details>
 
 
