@@ -109,6 +109,7 @@
         top: 50%;
         left: 35%;
         z-index: 1;
+        top: -15em;
         /*plaatje met button erop*/
     }
     
@@ -155,6 +156,7 @@
         color: grey;
         font-size: small;
     }
+    
      
     h4{
     margin-top: 3em;
@@ -179,6 +181,7 @@
     q{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: x-large;
+      
     
      
      
@@ -199,4 +202,15 @@
     a{
         color: #000000;
         text-decoration: none;
+    }
+    /* knop voor producten, grote knoppen*/
+    article button:nth-of-type(2){
+    top: 0.5em;
+    left: 1em;
+    width: 25em;
+    margin-bottom: 2em;
+    }
+    
+    article button:nth-of-type(3){
+       left: 1em;
     }

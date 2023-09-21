@@ -46,7 +46,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de tweede pagina (small screen):
   De Detailpagina 
   <img src="images/detailpagina.png" width="375px" alt="de detailpagina waarop je de artikelen kunt bekijken">
- <img src="images/Glossierwebsite.pdf" width="375px" alt="alle termen bij de bijbehorende elementen">
+Onderverdelen
+ <img src="images/Glossierwebsite.jpg" width="375px" alt="alle termen bij de bijbehorende elementen">
 </details>
 
 
@@ -74,9 +75,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### dynamisch deel (bijv menu): 
   <img src="images/breakdown.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="" width="375px" alt="breakdown van nog een dynamisch deel">
-
 </details>
 
 
@@ -90,25 +88,27 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+<img src="images/ditwaslastig1.png">
+Het logo moest naar de navigatie komen te staan, ook moest dit kunnen meeschalen. Dit lukte me niet maar met hulp ging dit beter. 
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Elles     | Rhania          | Sophie    | Amber        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  | Logo centreren. | Flexbox| Flexbox| Tekst  schalen 
+  Grid | Grid             | Grid    | Flexbox   |
+  | Meeschalen | Tekst+ afbeelding | Tekst+ afbeelding |  Afbeelding schalen |
+  
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Wat het verschil is tussen een article en section
+  - Wat het verschil is tussen een link en een button
+  - Dingen kunnen uitlijnen door middel van flexbox
+  - CSS selectors 
 
 </details>
 
@@ -124,15 +124,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  <img src="images/ditginggoed.png" width=375px>
+
+  Mijn beginpagina is klaar, alleen moet ik hem nog responsive maken. 
+  <img src="images/ditginggoed1.png" width=375px>
+
+  Ik heb alle content in de footer gezet en geprobeerd alles goed te positioneren. Ik moet hier wel nog verder aan werken.
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Elles      | Rhania          | Sophie    | Amber        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Linkjes die nergens heen linken | Responsive              | Responsive    | Knoppen centreren    |
+  | Hoe update je Github? | Foto's meeschalen | En uitklap menu maken | Carrousel vereenvoudigen |
+  | Schalen met % of em?            | Schalen met % of em?                | ...          | ...              |
 
 
   ### Verslag van meeting
