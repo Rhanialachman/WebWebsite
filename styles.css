@@ -8,21 +8,25 @@
         color: white;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       
+      
     }   
     
     header p{
-        padding: 0.1em;
+        padding: 0.3em .5em;
         box-sizing: border-box;
     }
     nav{
     display: flex;
     justify-content: space-between;
     
+    
+    
     }
     nav ul {
         display: flex;
         justify-content: flex-end;
         text-transform: uppercase;
+        
        
     
     }
@@ -30,6 +34,7 @@
     display: flex;
     text-decoration: none;
     padding: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: small;
     
     
@@ -39,17 +44,18 @@
        height: 2.8em;
        justify-content: left;
     
+    
     }
     
     main section {
     position: relative;
-    max-height: 90vh;    
+    max-height: 90vh;  
+    overflow: hidden;  
+    
     }
     
     main section img{
     width: 100%;
-    max-height: 30%;
-    
     
      }
     
@@ -64,7 +70,6 @@
     
     
     
-    
      }
      
     
@@ -76,27 +81,32 @@
       
      }
     
-     main article img{
+    main article img{
+    display: grid;
     height: 90vw;
-    margin: 1em;
+    margin: 5vw;
+    max-width: 50em;
+    max-height: 40em;
      }
     
     footer{
     background-color: rgb(255, 236, 248);
     }
     footer img{
-        height: 12em;
+        width: 90%;
+        margin-left: 2em;
+        max-width: 15em;
     }
     
     footer ul{
-        display: flex;
         justify-content:left;
-        padding: 2em;
+        padding: 0.01em;
+        text-decoration: none;
     }
     
     footer ul li{
-        display: flex;
      text-decoration: none;
+     list-style-type: none;
     padding: 0.4em;
     font-size: small;
     }
@@ -106,20 +116,12 @@
         padding: 1em;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         position: relative;
-        top: 50%;
-        left: 35%;
         z-index: 1;
-        top: -15em;
         /*plaatje met button erop*/
     }
     
     
     
-    
-    video{
-        height: 25em;
-        width: 23em;
-    }
     
     h3{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -137,13 +139,16 @@
     
     footer label{
         color: rgb(65, 65, 65);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-transform: uppercase;
+        margin-left: 1em;
     }
     
     footer input {
     height: 3em;
     outline-width: 40em;
     background-color: white;
+    margin-left: 1em;
     
     
     }
@@ -159,15 +164,13 @@
     
      
     h4{
-    margin-top: 3em;
+    margin-top: 2em;
        line-height: 4em;
        border-top: 1px solid #000000;
        text-transform: uppercase;
+       margin-left: 1em;
     }
      
-    
-    nav img {animation-timing-function: ease-in-out;
-    }
     
     
     h3{
@@ -178,39 +181,64 @@
          font-weight: 400;
     }
     
-    q{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: x-large;
-      
-    
-     
-     
-     }
     
     video{
-    margin: 0.7em;
+        display: flex;
+    margin: 0.8em;
+    width: 90%;
+    max-height: 30em;
+    margin-left: 5%;
        
     }
     
     article p{
+        display: flex;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: rgb(125, 125, 125);
-        margin: 1em;
+        margin:  1em;
+        font-size: x-large;
     
     }
     
+    nav a{
+        display: flex;
+        border: 0; 
+        margin: 0; 
+        padding: 0;
+        margin-left: 0em;
+        
+      
+    }
     a{
-        color: #000000;
-        text-decoration: none;
-    }
+        background-color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          color: black;
+          border: 1px solid rgb(0, 0, 0);
+          margin-left: 1em;
+          padding: 5% 5%;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+        
+        }
+    
+    
     /* knop voor producten, grote knoppen*/
     article button:nth-of-type(2){
-    top: 0.5em;
+    display: flex;
     left: 1em;
-    width: 25em;
+    width: 16em;
     margin-bottom: 2em;
     }
     
-    article button:nth-of-type(3){
-       left: 1em;
+    article{
+        padding-bottom: 2em;
+    }
+    
+    a:nth-of-type(1){
+        color: blueviolet;
+    
+    }
+    
+    article img{
+    
     }
