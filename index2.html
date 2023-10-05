@@ -1,80 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glossier Skincare</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glossier Skincare</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<main>
   <header>
     <p>Free shipping on orders over 40$</p>
   </header>
-    <nav>
-      <a href=index.html> <img src="images/glossierlogo.png" alt="Glossier Logo"></a>
-        <ul>
-          <li>
-            <p>menu</p>
-          </li>
-          <li>
-            <p>search</p>
-          </li>
-          <li>
-            <p>bag(0)</p>
-          </li>
+  <nav>
+    <a href=index.html> <img src="images/glossierlogo.png" alt="Glossier Logo"></a>
+    <ul>
+      <li>
+        <p>search</p>
+      </li>
+      <li>
+        <p>bag(0)</p>
+      </li>
+      <li>
+        <ul class="menu">
+          <li><a class="menuItem" href="#">Shop All</a></li>
+          <li><a class="menuItem" href="#">New</a></li>
+          <li><a class="menuItem" href="#">Stores</a></li>
+          <li><a class="menuItem" href="#">Log in</a></li>
         </ul>
-      </nav>
-      <main>
-        <article>
-            <img src="images/potje.png" alt="">
-            <h3>Futuredew</h3>
-            <p>Oil serum hybrid</p>
-            <p>55$</p>
-            <button>add to bag</button>
-          </article>
-          <article>
-            <img src="images/deo.png" alt="">
-            <h3>Futuredew</h3>
-            <p>Oil serum hybrid</p>
-            <p>55$</p>
-            <button>add to bag</button>
-          </article>
+      </li>
+  </nav>
+  </ul>
+  <button class="hamburger">
+    <i class="menuIcon material-icons">menu</i>
+    <i class="closeIcon material-icons">close</i>
+  </button>
+  <main>
+    <ul>
+      <li>
+        <img src="images/potje.png" alt="oil serum hybrid">
+        <h3>Futuredew</h3>
+        <p>Oil serum hybrid</p>
+        <p>55$</p>
+        <a>add to bag</a>
+      </li>
 
+      <li>
+        <img src="images/deo.png" alt="deodorant">
+        <h3>Deodorant </h3>
+        <p>Smooth-odor defense</p>
+        <p>22$</p>
+        <a>add to bag</a>
+      </li>
 
+      <li>
+        <img src="images/zeepje.png" alt="milky jelly duo">
+        <h3>Milky Jelly Duo</h3>
+        <p>Cleanser + Bar</p>
+        <p>37$</p>
+        <a>add to bag</a>
+      </li>
 
+      <li>
+        <img src="images/zeep.png" alt="body wash">
+        <h3>Cleansing Bar</h3>
+        <p>Face + Body wash</p>
+        <p>18$</p>
+        <a>add to bag</a>
+      </li>
 
+      <li>
+        <img src="images/cleanser.png" alt="cleanser">
+        <h3>Solution</h3>
+        <p>Exfoliating skin perfector</p>
+        <p>26$</p>
+        <a>add to bag</a>
+      </li>
 
-      </main>
-      <footer>
-        <p>At Glossier, we make products inspired by real life. We believe beauty is about having fun, celebrating freedom
-          and being present, because no matter where you are in your beauty journey - YOU LOOK GOOD.</p>
-        <label for="email">Your email:</label>
-        <input type="email" id="email" name="email">
-        <input type="submit">
-        <p>This field is required</p>
-        <p>You can unsubscribe anytime. For more details, review our Privacy Policy.</p>
-        <h4>how can we help?</h4>
-        <h4>about glossier</h4>
-        <h4>find your store</h4>
-        <h4>country</h4>
-        <h4>social</h4>
-        <h4>index</h4>
-        
-        <ul>
-         <li><p>© 2023 Glossier. All rights reserved.</p></li>
-          <li>
-            <p>Privacy Police</p>
-          </li>
-          <li>
-            <p>US State Privacy Notice</p>
-          </li>
-          <li>
-            <p>Terms of Use</p>
-          </li>
-          
-        </ul>
-        <img src="images/smile_wave_black.png" alt="">
-      </footer>
+      <li>
+        <img src="images/primer.png" alt="face cream">
+        <h3>Priming Moisturizer</h3>
+        <p>Luxurious face cream</p>
+        <p>35$</p>
+        <a>add to bag</a>
+      </li>
+
+      <li>
+        <img src="images/groenpotje.png" alt="recovery balm">
+        <h3>After Baume</h3>
+        <p>Recovery cream</p>
+        <p>28$</p>
+        <a>add to bag</a>
+      </li>
+
+      <li>
+        <img src="images/sunscreen.png" alt="suncreen">
+        <h3>Invisible Shield</h3>
+        <p>Daily sunscreen +</p>
+        <p>25$</p>
+        <a>add to bag</a>
+      </li>
+
+      <li>
+        <img src="images/retinol.png" alt="retinol complex">
+        <h3>Pro-Retinol</h3>
+        <p>Nightly complex</p>
+        <p>35$</p>
+        <a>add to bag</a>
+      </li>
+
+      <li>
+        <img src="images/remover.png" alt="makeup remover">
+        <h3>Milky Oil</h3>
+        <p>Makeup remover</p>
+        <p>14$</p>
+        <a>add to bag</a>
+      </li>
+
+      <li>
+        <img src="images/jellycleanser.png" alt="jelly face wash">
+        <h3>Milky Jelly Cleanser</h3>
+        <p>Conditioning face wash</p>
+        <p>20$</p>
+        <a>add to bag</a>
+      </li>
+
+      <li>
+        <img src="images/moisturizer.png" alt="moisturizer">
+        <h3>Priming Moisturizer</h3>
+        <p>Hydrating creme</p>
+        <p>24$</p>
+        <a>add to bag</a>
+      </li>
+
+      <li>
+        <img src="images/facewash.png" alt="facewash">
+        <h3>Cleanser Concentrate</h3>
+        <p>Clarifying face wash</p>
+        <p>21$</p>
+        <a>add to bag</a>
+      </li>
+    </ul>
+  </main>
+  <footer>
+    <p>At Glossier, we make products inspired by real life. We believe beauty is about having fun, celebrating freedom
+      and being present, because no matter where you are in your beauty journey - YOU LOOK GOOD.</p>
+    <label for="email">Your email:</label>
+    <input type="email" id="email" name="email">
+    <input type="submit">
+    <p>This field is required</p>
+    <p>You can unsubscribe anytime. For more details, review our Privacy Policy.</p>
+    <h4>how can we help?</h4>
+    <h4>about glossier</h4>
+    <h4>find your store</h4>
+    <h4>country</h4>
+    <h4>social</h4>
+    <h4>index</h4>
+
+    <ul>
+      <li>
+        <p>© 2023 Glossier. All rights reserved.</p>
+      </li>
+      <li>
+        <p>Privacy Police</p>
+      </li>
+      <li>
+        <p>US State Privacy Notice</p>
+      </li>
+      <li>
+        <p>Terms of Use</p>
+      </li>
+
+    </ul>
+    <img src="images/smile_wave_black.png" alt="emoji smiley met een handje">
+  </footer>
 </body>
+<script src="js.js"></script>
+
 </html>
